@@ -21,12 +21,12 @@ public class Ejemplo4 {
         // Expresiones lógicas con cadenas en Java
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        
+
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
-        if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
-                ciudad.equals("Guayaquil")) {
+        if (ciudad.equals("Loja") || ciudad.equals("Machala")
+                || ciudad.equals("Guayaquil")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
