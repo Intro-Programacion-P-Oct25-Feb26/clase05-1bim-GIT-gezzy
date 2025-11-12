@@ -10,6 +10,7 @@ package ejemplo1;
 
 import java.util.Scanner;
 import java.util.Locale;
+
 /**
  *
  * @author reroes
@@ -23,17 +24,16 @@ public class Ejemplo3 {
 
         double promedio;
         double limiteNotas;
-        
+
         System.out.println("Ingrese un valor para analizar:");
         promedio = entrada.nextDouble();
         System.out.println("Ingrese el limite para:");
         limiteNotas = entrada.nextDouble();
-        
+
         /* 
         System.out.println("Ingrese un valor para analizar");
         double promedio = entrada.nextDouble(); ES VALIDO
-        */
-
+         */
         if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
