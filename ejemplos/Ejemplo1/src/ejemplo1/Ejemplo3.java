@@ -14,7 +14,7 @@ import java.util.Locale;
  *
  * @author reroes
  */
-public class Ejemplo1 {
+public class Ejemplo3 {
 
     public static void main(String[] args) {
         // Condicionales simplesmain
@@ -22,10 +22,12 @@ public class Ejemplo1 {
         entrada.useLocale(Locale.US);
 
         double promedio;
-        double limiteNotas = 6.9;
+        double limiteNotas;
         
         System.out.println("Ingrese un valor para analizar:");
         promedio = entrada.nextDouble();
+        System.out.println("Ingrese el limite para:");
+        limiteNotas = entrada.nextDouble();
         
         /* 
         System.out.println("Ingrese un valor para analizar");
@@ -43,7 +45,7 @@ public class Ejemplo1 {
         }
 
         if (promedio < limiteNotas) {
-            System.out.printf("Estudiante aprobado con un "
+            System.out.printf("Estudiante reprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
     }
