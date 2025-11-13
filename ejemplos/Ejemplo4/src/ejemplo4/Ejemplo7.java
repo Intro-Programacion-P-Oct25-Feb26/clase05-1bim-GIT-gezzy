@@ -1,6 +1,12 @@
 /*
-El programa presenta mensaje de "acceso correcto" para las placas de vehiculos
-de las provincias de Guayas y Pichincha
+El programa presenta mensaje de "acceso correcto" para las placas
+de vehículos de la provincia del Guayas y Pichincha
+
+LBA-0010
+GBC-0010
+gbz-0101
+PRZ-2020
+pRC-3231
  */
 package ejemplo4;
 
